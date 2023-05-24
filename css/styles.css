@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row > * {
+  padding: 0px;
+}
+
+.card {
+  margin: 5px;
+  text-align: justify;
+  border: none;
+  -webkit-box-shadow: 3px 3px 5px 0px rgb(209, 209, 209);
+  -moz-box-shadow: 3px 3px 5px 0px rgb(209, 209, 209);
+  box-shadow: 3px 3px 5px 0px rgb(209, 209, 209);
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* para Bootstrap (xs) */
+@media (max-width: 575.98px) {
+  #navbarSupportedContent {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+}
+/* para Bootstrap (sm) */
+/* para Bootstrap (md) */
+/* para Bootstrap (lg) */
+/* para Bootstrap (xl) */
+/* Para mostrar la navbar completa */
+@media screen and (max-width: 1769px) {
+  .navbar-dropdown {
+    display: flex;
+  }
+  .navbar-completa {
+    display: none;
+  }
+}
+@media screen and (min-width: 1770px) {
+  .navbar-dropdown {
+    display: none;
+  }
+  .navbar-completa {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
