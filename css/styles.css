@@ -21,19 +21,19 @@
 }
 
 /* para Bootstrap (xs) */
-@media (max-width: 575.98px) {
+/* para Bootstrap (sm) */
+@media (min-width: 576px) and (max-width: 767.99px) {
   #navbarSupportedContent {
     display: flex;
     flex-basis: 100%;
     flex-grow: 1;
   }
 }
-/* para Bootstrap (sm) */
 /* para Bootstrap (md) */
 /* para Bootstrap (lg) */
 /* para Bootstrap (xl) */
 /* Para mostrar la navbar completa */
-@media screen and (max-width: 1769px) {
+@media (max-width: 1769.99px) {
   .navbar-dropdown {
     display: flex;
   }
@@ -41,7 +41,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1770px) {
+@media (min-width: 1770px) {
   .navbar-dropdown {
     display: none;
   }
